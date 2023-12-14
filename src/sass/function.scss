@@ -1,0 +1,4 @@
+@function -size($n, $str) {
+  $res: calc($n/16);
+  @return unquote(#{$res}#{$str});
+}

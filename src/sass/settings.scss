@@ -1,0 +1,14 @@
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: var(--font-manrope);
+  font-size: -size(16, rem);
+}
+
+.container {
+  max-width: -size(1220, em);
+  margin: 0 auto;
+  padding: 0 -size(10, em);
+}

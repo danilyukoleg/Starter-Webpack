@@ -1,0 +1,19 @@
+/*
+  Подключение библиотек и шрифтов
+ */
+
+@import "bootstrap/dist/css/bootstrap-reboot.min.css";
+@import "bootstrap/dist/css/bootstrap-grid.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Mulish&family=Russo+One&display=swap');
+
+/*
+  Базовые настройки
+ */
+@import "function";
+@import "settings";
+@import "vars";
+
+/*
+  Добавление папки blocks
+ */
+

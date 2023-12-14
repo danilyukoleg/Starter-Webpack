@@ -28,7 +28,7 @@ export default {
         use: ["babel-loader"],
       },
       {
-        test: /\.sass|.scss$/i,
+        test: /\.scss$/i,
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
       {
